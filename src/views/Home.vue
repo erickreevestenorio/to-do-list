@@ -1,8 +1,8 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+    <div class="container mx-auto">
+      <h2 class="mb-5">Home</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur fuga magni dolorem. Alias repellendus a harum voluptates facere deleniti explicabo blanditiis, quibusdam eum atque quia dolore nemo in laboriosam tempora!</p>
+    </div>
 </template>
 
 <script>

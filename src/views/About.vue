@@ -1,5 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <div class="container mx-auto">
+      <h2 class="mb-5">About</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore cupiditate quo reprehenderit eveniet explicabo ullam est quia sint ea deserunt, atque ipsam illo, quam dolores porro! Maxime atque quibusdam ipsam.</p>
+    </div>
 </template>

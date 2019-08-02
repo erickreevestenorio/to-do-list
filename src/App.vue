@@ -4,17 +4,38 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+
+    <div class="card w-2/5 bg-white rounded shadow-lg mx-auto p-10">
+      <div class="">
+        <div class="date">
+          <strong>12</strong>
+          <strong>Jan</strong>
+          2019
+        </div>
+        <p>TUESDAY</p>
+      </div>
+      <router-view class="mt-10"/>
+    </div>
+
+
+    
   </div>
 </template>
+<script>
+import './assets/styles/main.css'
+export default {
+  
+}
+</script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #E9E9E4;
+  }
+  .card {
+    min-height: 400px;
+  }
 </style>
